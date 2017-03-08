@@ -6,7 +6,7 @@ The project was basically divided into 2 steps where step 1 was to implement the
 
 In this project we have implemented Transaction Manager and deadlock detector as follows:
 
-**##Transaction Manager:##**
+##**Transaction Manager:**##
 
 The Transaction Manager has been implemented using zgt_tx.c and zgt_tm.c programs.
 
@@ -22,7 +22,7 @@ The Transaction Manager has been implemented using zgt_tx.c and zgt_tm.c program
 
 •	In zgt_tm.c, we have implemented the commitTX() and TXwrite() methods which were very similar to the TXread() method. We created a thread to execute the operations implemented in zgt_tx.c file.
 
-**##Deadlock Detector:##**
+##**Deadlock Detector:**##
 
 Implementing a deadlock detector was the most interesting and challenging part of the project. We implemented two methods:  deadlock() and traverse() method. 
 
